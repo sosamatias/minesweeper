@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+.app {
+  background-color: #282c34;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.flex-table {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.btn-0 {
+  background: url(img/0.png);
+}
+.btn-1 {
+  background: url(img/1.png);
+}
+.btn-2 {
+  background: url(img/2.png);
+}
+.btn-3 {
+  background: url(img/3.png);
+}
+.btn-4 {
+  background: url(img/4.png);
+}
+.btn-5 {
+  background: url(img/5.png);
+}
+.btn-6 {
+  background: url(img/6.png);
+}
+.btn-7 {
+  background: url(img/7.png);
+}
+.btn-8 {
+  background: url(img/8.png);
+}
+.btn-M {
+  background: url(img/mine.png);
+}
+.btn-F {
+  background: url(img/fatal-mine.png);
+}
+.btn-X {
+  background: url(img/X.png);
+}
+.btn-cell {
+  padding: 20px;  
+  background-size: cover;
+}
+.btn-emoji{
+  background: url(img/emoji.png);
+  padding: 30px;  
+  background-size: cover;
+}
+.btn-emoji-win{
+  background: url(img/emoji-win.png);
+  padding: 30px;  
+  background-size: cover;
+}
+.btn-emoji-lose{
+  background: url(img/emoji-lose.png);
+  padding: 30px;  
+  background-size: cover;
+}
